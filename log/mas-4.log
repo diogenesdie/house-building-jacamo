@@ -1,0 +1,433 @@
+[aslparser] [file:src/agt/giacomo.asl:53] warning: The internal action class for '.execInternalOp("startAuction",5000)' was not loaded! Error: java.lang.ClassNotFoundException: jason.stdlib.execInternalOp
+[aslparser] [file:src/agt/giacomo.asl:72] warning: The internal action class for '.execInternalOp("closeAuction")' was not loaded! Error: java.lang.ClassNotFoundException: jason.stdlib.execInternalOp
+[companyC3] Could not finish intention: intention 161: 
+    +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1900, Art=cobj_2, S="SitePreparation", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1900)[artifact_id(cobj_2)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 164: 
+    +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1900, Art=cobj_2, S="SitePreparation", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1900)[artifact_id(cobj_2)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 162: 
+    +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1900, Art=cobj_2, S="SitePreparation", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1900)[artifact_id(cobj_2)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[CAgentArch] Action failed: .execInternalOp("startAuction",5000), in namespace default, operation ( .execInternalOp startAuction 5000 )
+[giacomo] Falha ao construir uma casa devido a: Action failed: .execInternalOp("startAuction",5000), in namespace default, operation ( .execInternalOp startAuction 5000 ) (action_failed). Commando: .execInternalOp("startAuction",5000) no file:src/agt/giacomo.asl:53
+[companyD11] Could not finish intention: intention 156: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=2165}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(2165)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyA] Could not finish intention: intention 167: 
+    +currentBid(500)[artifact_id(cobj_2),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P) / {P=300, Art=cobj_2, V=500}
+	Trigger: +currentBid(500)[artifact_id(cobj_2),artifact_name(auction_for_Plumbing),code(bid(300)),code_line(14),code_src("file:src/agt/companyA.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 168: 
+    +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1900, Art=cobj_2, S="SitePreparation", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1900)[artifact_id(cobj_2)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyE] Could not finish intention: intention 170: 
+    +currentBid(1000)[artifact_id(cobj_2),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(math.max((V-10),P))[artifact_id(Art)] / {P=800, Art=cobj_2, Sum=0, S="Floors", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_2),artifact_name(auction_for_Floors),code(bid(990)[artifact_id(cobj_2)]),code_line(32),code_src("file:src/agt/companyE.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 175: 
+    +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_4, S="Floors", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(900)[artifact_id(cobj_4)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 177: 
+    +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_4, S="Walls", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(900)[artifact_id(cobj_4)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 193: 
+    +currentBid(2000)[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_5, S="Roof", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(1100)[artifact_id(cobj_5)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 213: 
+    +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_5, S="Walls", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Walls),code(bid(900)[artifact_id(cobj_5)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC3] Could not finish intention: intention 238: 
+    +currentBid(2000)[artifact_id(cobj_4),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_4, S="Roof", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_4),artifact_name(auction_for_Roof),code(bid(1100)[artifact_id(cobj_4)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyE] Could not finish intention: intention 231: 
+    +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(math.max((V-10),P))[artifact_id(Art)] / {P=800, Art=cobj_4, Sum=0, S="Walls", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(990)[artifact_id(cobj_4)]),code_line(32),code_src("file:src/agt/companyE.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 228: 
+    +currentBid(1000)[artifact_id(cobj_6),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_6, S="Floors", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_6),artifact_name(auction_for_Floors),code(bid(900)[artifact_id(cobj_6)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 252: 
+    +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_4, S="Walls", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(900)[artifact_id(cobj_4)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 258: 
+    +currentBid(2500)[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=2000, Art=cobj_7, S="WindowsDoors", V=2500}
+	Trigger: +currentBid(2500)[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(2000)[artifact_id(cobj_7)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyE] Could not finish intention: intention 257: 
+    +currentBid(2000)[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(math.max((V-10),P))[artifact_id(Art)] / {P=800, Art=cobj_5, Sum=0, S="Roof", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(1990)[artifact_id(cobj_5)]),code_line(32),code_src("file:src/agt/companyE.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC3] Could not finish intention: intention 260: 
+    +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_5, S="Floors", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(900)[artifact_id(cobj_5)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 255: 
+    +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_5, S="Floors", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(900)[artifact_id(cobj_5)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 261: 
+    +currentBid(2000)[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_6, S="Roof", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(1100)[artifact_id(cobj_6)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC3] Could not finish intention: intention 267: 
+    +currentBid(1000)[artifact_id(cobj_6),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_6, S="Walls", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_6),artifact_name(auction_for_Walls),code(bid(900)[artifact_id(cobj_6)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 273: 
+    +currentBid(2500)[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=2000, Art=cobj_6, S="WindowsDoors", V=2500}
+	Trigger: +currentBid(2500)[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),code(bid(2000)[artifact_id(cobj_6)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 274: 
+    +currentBid(2500)[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=2000, Art=cobj_7, S="WindowsDoors", V=2500}
+	Trigger: +currentBid(2500)[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(2000)[artifact_id(cobj_7)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 272: 
+    +currentBid(1200)[artifact_id(cobj_9),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_9, S="Painting", V=1200}
+	Trigger: +currentBid(1200)[artifact_id(cobj_9),artifact_name(auction_for_Painting),code(bid(1100)[artifact_id(cobj_9)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 280: 
+    +currentBid(2000)[artifact_id(cobj_8),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_8, S="Roof", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_8),artifact_name(auction_for_Roof),code(bid(1100)[artifact_id(cobj_8)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC3] Could not finish intention: intention 281: 
+    +currentBid(2500)[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=2000, Art=cobj_7, S="WindowsDoors", V=2500}
+	Trigger: +currentBid(2500)[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(2000)[artifact_id(cobj_7)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC5] Could not finish intention: intention 282: 
+    +currentBid(500)[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=300, Art=cobj_10, S="ElectricalSystem", V=500}
+	Trigger: +currentBid(500)[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(300)[artifact_id(cobj_10)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 157: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=9438}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(9438)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC3] Could not finish intention: intention 283: 
+    +currentBid(1200)[artifact_id(cobj_8),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_8, S="Painting", V=1200}
+	Trigger: +currentBid(1200)[artifact_id(cobj_8),artifact_name(auction_for_Painting),code(bid(1100)[artifact_id(cobj_8)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 284: 
+    +currentBid(500)[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=300, Art=cobj_9, S="ElectricalSystem", V=500}
+	Trigger: +currentBid(500)[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),code(bid(300)[artifact_id(cobj_9)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC1] Could not finish intention: intention 285: 
+    +currentBid(1200)[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_10, S="Painting", V=1200}
+	Trigger: +currentBid(1200)[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(1100)[artifact_id(cobj_10)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC3] Could not finish intention: intention 286: 
+    +currentBid(500)[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=300, Art=cobj_10, S="ElectricalSystem", V=500}
+	Trigger: +currentBid(500)[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(300)[artifact_id(cobj_10)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 158: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=3869}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(3869)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC4] Could not finish intention: intention 190: 
+    +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_4, S="Floors", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(900)[artifact_id(cobj_4)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC4] Could not finish intention: intention 287: 
+    +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=900, Art=cobj_5, S="Walls", V=1000}
+	Trigger: +currentBid(1000)[artifact_id(cobj_5),artifact_name(auction_for_Walls),code(bid(900)[artifact_id(cobj_5)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC4] Could not finish intention: intention 288: 
+    +currentBid(2500)[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=2000, Art=cobj_6, S="WindowsDoors", V=2500}
+	Trigger: +currentBid(2500)[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),code(bid(2000)[artifact_id(cobj_6)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC4] Could not finish intention: intention 290: 
+    +currentBid(2000)[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_7, S="Roof", V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(1100)[artifact_id(cobj_7)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC4] Could not finish intention: intention 291: 
+    +currentBid(1200)[artifact_id(cobj_8),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_8, S="Painting", V=1200}
+	Trigger: +currentBid(1200)[artifact_id(cobj_8),artifact_name(auction_for_Painting),code(bid(1100)[artifact_id(cobj_8)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC4] Could not finish intention: intention 292: 
+    +currentBid(500)[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=300, Art=cobj_9, S="ElectricalSystem", V=500}
+	Trigger: +currentBid(500)[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),code(bid(300)[artifact_id(cobj_9)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 217: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=7572}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(7572)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 226: 
+    +task("ElectricalSystem")[artifact_id(cobj_8),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="ElectricalSystem", Bid=8683}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_8),artifact_name(auction_for_ElectricalSystem),code(bid(8683)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 279: 
+    +currentBid(1200)[artifact_id(cobj_9),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=1100, Art=cobj_9, S="Painting", V=1200}
+	Trigger: +currentBid(1200)[artifact_id(cobj_9),artifact_name(auction_for_Painting),code(bid(1100)[artifact_id(cobj_9)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyC2] Could not finish intention: intention 293: 
+    +currentBid(500)[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(P)[artifact_id(Art)] / {P=300, Art=cobj_10, S="ElectricalSystem", V=500}
+	Trigger: +currentBid(500)[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(300)[artifact_id(cobj_10)]),code_line(40),code_src("file:src/agt/companyC.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 235: 
+    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=3071}
+	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(3071)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 265: 
+    +task("WindowsDoors")[artifact_id(cobj_5),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="WindowsDoors", Bid=2795}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_5),artifact_name(auction_for_WindowsDoors),code(bid(2795)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 230: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=3437}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(3437)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 251: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=9601}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(9601)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 195: 
+    +task("Walls")[artifact_id(cobj_6),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Walls", Bid=5879}
+	Trigger: +task("Walls")[artifact_id(cobj_6),artifact_name(auction_for_Walls),code(bid(5879)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 263: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=7430}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(7430)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 224: 
+    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=6555}
+	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(6555)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 154: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=10069}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(10069)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 166: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=8966}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(8966)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 269: 
+    +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Painting", Bid=4531}
+	Trigger: +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),code(bid(4531)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 192: 
+    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=1427}
+	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(1427)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 155: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=3874}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(3874)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 222: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=7263}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(7263)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 276: 
+    +task("Walls")[artifact_id(cobj_8),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Walls", Bid=6966}
+	Trigger: +task("Walls")[artifact_id(cobj_8),artifact_name(auction_for_Walls),code(bid(6966)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyB] Could not finish intention: intention 294: 
+    +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(math.max((V-150),P)) / {P=1500, Art=cobj_2, V=2000}
+	Trigger: +currentBid(2000)[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1850)),code_line(14),code_src("file:src/agt/companyB.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 151: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=5054}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(5054)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 225: 
+    +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Walls", Bid=3307}
+	Trigger: +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),code(bid(3307)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 203: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=3181}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(3181)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 163: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=9248}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(9248)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 214: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=7142}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(7142)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 173: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=9614}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(9614)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 278: 
+    +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="ElectricalSystem", Bid=6588}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(6588)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 199: 
+    +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="WindowsDoors", Bid=9615}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(9615)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 250: 
+    +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Painting", Bid=3922}
+	Trigger: +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),code(bid(3922)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 212: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=1989}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(1989)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 208: 
+    +task("WindowsDoors")[artifact_id(cobj_9),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="WindowsDoors", Bid=8859}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_9),artifact_name(auction_for_WindowsDoors),code(bid(8859)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 187: 
+    +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="WindowsDoors", Bid=7682}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(7682)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 152: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=5872}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(5872)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 188: 
+    +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Walls", Bid=4019}
+	Trigger: +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),code(bid(4019)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 191: 
+    +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="WindowsDoors", Bid=10454}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(10454)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 241: 
+    +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="WindowsDoors", Bid=4596}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),code(bid(4596)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 266: 
+    +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="ElectricalSystem", Bid=7679}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(7679)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 209: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=2648}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(2648)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 247: 
+    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=7972}
+	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(7972)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 244: 
+    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=2581}
+	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(2581)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 205: 
+    +task("ElectricalSystem")[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="ElectricalSystem", Bid=9532}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),code(bid(9532)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 259: 
+    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=4161}
+	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(4161)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 180: 
+    +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Floors", Bid=1554}
+	Trigger: +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(1554)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 245: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=9578}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(9578)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 196: 
+    +task("ElectricalSystem")[artifact_id(cobj_7),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="ElectricalSystem", Bid=1991}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_7),artifact_name(auction_for_ElectricalSystem),code(bid(1991)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 210: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=6097}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(6097)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 215: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=10042}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(10042)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 289: 
+    +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="ElectricalSystem", Bid=8552}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(8552)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 171: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=8052}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(8052)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 181: 
+    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=10723}
+	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(10723)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 185: 
+    +task("Walls")[artifact_id(cobj_6),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Walls", Bid=8941}
+	Trigger: +task("Walls")[artifact_id(cobj_6),artifact_name(auction_for_Walls),code(bid(8941)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 200: 
+    +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Roof", Bid=5305}
+	Trigger: +task("Roof")[artifact_id(cobj_8),artifact_name(auction_for_Roof),code(bid(5305)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 236: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=4966}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(4966)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 254: 
+    +task("Walls")[artifact_id(cobj_7),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Walls", Bid=7935}
+	Trigger: +task("Walls")[artifact_id(cobj_7),artifact_name(auction_for_Walls),code(bid(7935)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 186: 
+    +task("Walls")[artifact_id(cobj_6),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Walls", Bid=7537}
+	Trigger: +task("Walls")[artifact_id(cobj_6),artifact_name(auction_for_Walls),code(bid(7537)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 201: 
+    +task("ElectricalSystem")[artifact_id(cobj_8),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="ElectricalSystem", Bid=10754}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_8),artifact_name(auction_for_ElectricalSystem),code(bid(10754)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 202: 
+    +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Painting", Bid=3768}
+	Trigger: +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),code(bid(3768)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 234: 
+    +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="WindowsDoors", Bid=7660}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),code(bid(7660)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 277: 
+    +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Painting", Bid=4131}
+	Trigger: +task("Painting")[artifact_id(cobj_9),artifact_name(auction_for_Painting),code(bid(4131)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 249: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=9595}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(9595)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 262: 
+    +task("Painting")[artifact_id(cobj_8),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Painting", Bid=4033}
+	Trigger: +task("Painting")[artifact_id(cobj_8),artifact_name(auction_for_Painting),code(bid(4033)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 179: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=8990}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(8990)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 221: 
+    +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Walls", Bid=1124}
+	Trigger: +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),code(bid(1124)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 220: 
+    +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Floors", Bid=3474}
+	Trigger: +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(3474)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 153: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=9442}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(9442)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 184: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=8900}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(8900)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 178: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=8624}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(8624)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 248: 
+    +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="WindowsDoors", Bid=1659}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(1659)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 183: 
+    +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Floors", Bid=1737}
+	Trigger: +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(1737)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD3] Could not finish intention: intention 172: 
+    +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Walls", Bid=3409}
+	Trigger: +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(3409)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 271: 
+    +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="ElectricalSystem", Bid=9373}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(9373)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 242: 
+    +task("ElectricalSystem")[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="ElectricalSystem", Bid=10161}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),code(bid(10161)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 197: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=4259}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(4259)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 160: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=1936}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1936)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 169: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=7421}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(7421)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 159: 
+    +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_2, S="SitePreparation", Bid=1960}
+	Trigger: +task("SitePreparation")[artifact_id(cobj_2),artifact_name(auction_for_SitePreparation),code(bid(1960)[artifact_id(cobj_2)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 216: 
+    +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Walls", Bid=9526}
+	Trigger: +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(9526)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 240: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=8799}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(8799)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 176: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=10171}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(10171)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 233: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=8229}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(8229)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD13] Could not finish intention: intention 206: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=2818}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(2818)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 264: 
+    +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="Plumbing", Bid=6903}
+	Trigger: +task("Plumbing")[artifact_id(cobj_9),artifact_name(auction_for_Plumbing),code(bid(6903)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 227: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=5685}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(5685)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 204: 
+    +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="ElectricalSystem", Bid=2706}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(2706)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD6] Could not finish intention: intention 243: 
+    +task("WindowsDoors")[artifact_id(cobj_5),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="WindowsDoors", Bid=3731}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_5),artifact_name(auction_for_WindowsDoors),code(bid(3731)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 207: 
+    +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Walls", Bid=1256}
+	Trigger: +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(1256)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 219: 
+    +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="WindowsDoors", Bid=8055}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),code(bid(8055)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 275: 
+    +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Plumbing", Bid=5887}
+	Trigger: +task("Plumbing")[artifact_id(cobj_7),artifact_name(auction_for_Plumbing),code(bid(5887)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 253: 
+    +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="ElectricalSystem", Bid=7583}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_10),artifact_name(auction_for_ElectricalSystem),code(bid(7583)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 218: 
+    +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Floors", Bid=4618}
+	Trigger: +task("Floors")[artifact_id(cobj_5),artifact_name(auction_for_Floors),code(bid(4618)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 223: 
+    +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Walls", Bid=5409}
+	Trigger: +task("Walls")[artifact_id(cobj_5),artifact_name(auction_for_Walls),code(bid(5409)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 189: 
+    +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_5, S="Roof", Bid=9305}
+	Trigger: +task("Roof")[artifact_id(cobj_5),artifact_name(auction_for_Roof),code(bid(9305)[artifact_id(cobj_5)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 174: 
+    +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Walls", Bid=6129}
+	Trigger: +task("Walls")[artifact_id(cobj_4),artifact_name(auction_for_Walls),code(bid(6129)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 232: 
+    +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="Roof", Bid=2438}
+	Trigger: +task("Roof")[artifact_id(cobj_7),artifact_name(auction_for_Roof),code(bid(2438)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD4] Could not finish intention: intention 182: 
+    +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_4, S="Floors", Bid=7739}
+	Trigger: +task("Floors")[artifact_id(cobj_4),artifact_name(auction_for_Floors),code(bid(7739)[artifact_id(cobj_4)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD1] Could not finish intention: intention 198: 
+    +task("Plumbing")[artifact_id(cobj_6),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Plumbing", Bid=3594}
+	Trigger: +task("Plumbing")[artifact_id(cobj_6),artifact_name(auction_for_Plumbing),code(bid(3594)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 194: 
+    +task("ElectricalSystem")[artifact_id(cobj_7),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="ElectricalSystem", Bid=6061}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_7),artifact_name(auction_for_ElectricalSystem),code(bid(6061)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD9] Could not finish intention: intention 239: 
+    +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_7, S="WindowsDoors", Bid=2033}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_7),artifact_name(auction_for_WindowsDoors),code(bid(2033)[artifact_id(cobj_7)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD12] Could not finish intention: intention 268: 
+    +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Plumbing", Bid=9124}
+	Trigger: +task("Plumbing")[artifact_id(cobj_8),artifact_name(auction_for_Plumbing),code(bid(9124)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD5] Could not finish intention: intention 256: 
+    +task("Painting")[artifact_id(cobj_8),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_8, S="Painting", Bid=5559}
+	Trigger: +task("Painting")[artifact_id(cobj_8),artifact_name(auction_for_Painting),code(bid(5559)[artifact_id(cobj_8)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD2] Could not finish intention: intention 270: 
+    +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="Roof", Bid=2213}
+	Trigger: +task("Roof")[artifact_id(cobj_6),artifact_name(auction_for_Roof),code(bid(2213)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD8] Could not finish intention: intention 211: 
+    +task("WindowsDoors")[artifact_id(cobj_9),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="WindowsDoors", Bid=7305}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_9),artifact_name(auction_for_WindowsDoors),code(bid(7305)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD7] Could not finish intention: intention 246: 
+    +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_10, S="Painting", Bid=1379}
+	Trigger: +task("Painting")[artifact_id(cobj_10),artifact_name(auction_for_Painting),code(bid(1379)[artifact_id(cobj_10)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD10] Could not finish intention: intention 229: 
+    +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_6, S="WindowsDoors", Bid=7266}
+	Trigger: +task("WindowsDoors")[artifact_id(cobj_6),artifact_name(auction_for_WindowsDoors),code(bid(7266)[artifact_id(cobj_6)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
+[companyD11] Could not finish intention: intention 237: 
+    +task("ElectricalSystem")[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)] <- ... bid(Bid)[artifact_id(Art)] / {Art=cobj_9, S="ElectricalSystem", Bid=9390}
+	Trigger: +task("ElectricalSystem")[artifact_id(cobj_9),artifact_name(auction_for_ElectricalSystem),code(bid(9390)[artifact_id(cobj_9)]),code_line(19),code_src("file:src/agt/companyD.asl"),error(action_failed),error_msg("Auction is closed"),percept_type(obs_prop),source(percept),workspace("/main",cobj_0)]
